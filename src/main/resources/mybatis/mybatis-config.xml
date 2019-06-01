@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.canghai.zhihucopy.domain.User" alias="User"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.Question" alias="Question"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.Answer" alias="Answer"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.AttentionQuestion" alias="AttentionQuestion"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.AgreeOppose" alias="AgreeOppose"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.Comment" alias="Comment"/>
+        <typeAlias type="com.canghai.zhihucopy.domain.Reply" alias="Reply"/>
+    </typeAliases>
+</configuration>
